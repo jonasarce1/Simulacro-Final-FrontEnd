@@ -89,7 +89,7 @@ export const handler:Handlers = {
 }
 
 const Page = (props:PageProps<Data>) => {
-    return <Register message={props.data.message}/>
+    return <Register message={props.data?.message}/>
 }
 
 export default Page;
